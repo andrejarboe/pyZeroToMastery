@@ -31,3 +31,21 @@ age = 29
 print(f'hi {name}. You are {age} years old')
 # python 2
 print('hi {}. You are {age} years old'.format(name, age = 34))
+
+# string indexes 
+me = 'me me me me'
+index = 4
+
+print(f'\'me me me me\' index {index} is: {me[index]}')
+
+string = '0123456789'
+# [start:stop]
+print(string[0:7])
+# [start:stop:step over]
+print(string[0:8:2])
+# reverse the string
+print(string[::-1])
+# index to the end
+print(string[1:])
+
+
