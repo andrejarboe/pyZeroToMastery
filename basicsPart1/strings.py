@@ -23,3 +23,11 @@ weather = "\t It's \"kind of\" sunny \n hope you have a god day!"
 
 print(weather)
 
+#formatted strings 
+name = 'Johnny'
+age = 29
+
+# python 3
+print(f'hi {name}. You are {age} years old')
+# python 2
+print('hi {}. You are {age} years old'.format(name, age = 34))
