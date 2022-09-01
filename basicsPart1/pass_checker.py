@@ -1,6 +1,7 @@
 user = input('Username: ')
 password = input('Password: ')
 
-scrambled_password = len(password) * '*'
+password_length = len(password)
+hidden_password = password_length * '*'
 
-print(f'{user}, your password {scrambled_password} is {len(scrambled_password)} characters long. ')
+print(f'{user}, your password {hidden_password} is {password_length} characters long. ')
