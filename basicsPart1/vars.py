@@ -15,3 +15,7 @@ PI = 3.19
 
 # __ : dunder vars
 # leave them alone
+
+# expressions vs statements
+# expression is what the var is assigned 
+# statements are the whole line
