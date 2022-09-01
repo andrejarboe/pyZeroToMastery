@@ -9,3 +9,9 @@ user_IQ = 190
 
 print(user_IQ)
 
+#CONSTANTS
+PI = 3.19
+# should not be changed
+
+# __ : dunder vars
+# leave them alone
