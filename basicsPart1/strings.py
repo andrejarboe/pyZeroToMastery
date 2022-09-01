@@ -48,4 +48,18 @@ print(string[::-1])
 # index to the end
 print(string[1:])
 
+"""
+# string immutability 
 
+"""
+
+'''
+string methods
+'''
+print((58-36)  * 6 / 60)
+
+quote = 'to be or not to be'
+print(quote.title())
+
+print(quote.replace('be', 'me'))
+print(quote)
